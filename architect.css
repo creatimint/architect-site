@@ -290,6 +290,29 @@ nav{
     gap: 50px;
     filter: grayscale(100%);
   }
+  /* _________________________________________________ */
+  footer{
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-container{
+    margin-top: 130px;
+    margin-bottom: 216px;
+    width: 1440px;
+    max-width: 1440px;
+    border-radius: 8px;
+    height: 100px;
+    background-color: #FFF4E7;
+    align-items: center;
+    justify-content: center;
+  }
+  footer p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #424242;
+    /* padding: 38px 410px; */
+    text-align: center;
+  }
 
 
 
@@ -336,6 +359,10 @@ nav{
   .content{
     margin: 0 1rem;
   }
+  footer{
+    margin: 0 1rem;
+    padding: 0 1rem;
+  }
 
 }
 
@@ -380,5 +407,8 @@ nav{
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
-  
+  footer{
+    margin: 0 1rem;
+    padding: 0 1rem;
+  }
 }
