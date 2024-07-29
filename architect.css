@@ -20,7 +20,7 @@
   }
   section{
     margin-top: 130px;
-    border: 1px solid cyan;
+    /* border: 1px solid cyan; */
   }
 nav{
     max-width: 1440px;
@@ -162,9 +162,74 @@ nav{
     font-weight: 700;
     color: #FF900E;
   }
+/* ______________________________________________________________________ */
+.third-section{
+  gap: 8.75rem;
+}
+.feature-text-container{
+  max-width: 586px;
+}
+.third-section h3{
+  font-size: 2.8rem;
+  margin-bottom: 24px;
+  color: #131313;
+  border-left: #FF900E 5px solid;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+.width{
+  max-width: 586px;
+}
+.engineer img{
+  border-radius: 8px;
+  width: 100%;
+}
+.card{
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+.card h5{
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #131313;
+  margin-bottom: 10px;
+}
+.card p{
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  color: #727272;
+}
+.btn2{
+  text-align: center;
+  padding: 42px 45px;
+  background-color: #FF900E;
+  border-radius: 8px;
+  border: none;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+#year{
+  color: #fff;
+  font-size: 4rem;
+  line-height: 70px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+#experience{
+  margin: 0;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 40px;
+  font-weight: 500;
+}
+
   /* ___________________________________________________________________ */
   .fourth-section{
-    border: #FF900E 1px solid;
+    /* border: #FF900E 1px solid; */
+    margin-bottom: 50px;
   }
   .fourth-section h3{
     font-size: 2.8rem;
@@ -217,7 +282,7 @@ nav{
     color: #131313;
   }
   .sponsor-container{
-    border: 1px solid wheat;
+    /* border: 1px solid wheat; */
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -245,9 +310,17 @@ nav{
     padding: 0px 1rem;
   }
 
-  nav, .img-container, .second-section, .fact-container{
+  nav, 
+  .img-container, 
+  .second-section, 
+  .fact-container, 
+  .third-section{
     flex-direction: column;
     gap: 20px;
+  }
+  .btn2{
+    margin-top: -100px;
+    margin-left: 0px;
   }
   /* ______________________________ */
   section{
@@ -279,9 +352,21 @@ nav{
     padding: 1rem;
   }
   
-  nav, .img-container, .second-section{
+  nav,
+  .img-container,
+  .second-section,{
     flex-direction: column;
-    gap: 20px;
+    /* gap: 20px; */
+  }
+  .third-section{
+    flex-direction: column;
+  }
+  .card-container{
+    width: 100%;
+  }
+  .btn2{
+    margin-top: -100px;
+    margin-left: 50px;
   }
   /* ______________________________ */
   
@@ -292,8 +377,8 @@ nav{
     margin: 0 1rem;
   }
   .fact-container{
-    /* width: calc(100% - 1rem); */
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
+  
 }
