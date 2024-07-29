@@ -20,6 +20,7 @@
   }
   section{
     margin-top: 130px;
+    border: 1px solid cyan;
   }
 nav{
     max-width: 1440px;
@@ -168,6 +169,7 @@ nav{
   .fourth-section h3{
     font-size: 2.8rem;
     margin-bottom: 24px;
+    color: #131313;
   }
   
   .fact-container{
@@ -198,7 +200,31 @@ nav{
     font-weight: 600;
     color: #727272;
   }
+  /* _________________________________________________________________ */
+  .fifth-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .sponsor-content{
+    text-align: center;
+    max-width: 542px;
+  }
+  .sponsor-content h3{
+    font-size: 2.8rem;
+    margin-bottom: 24px;
+    color: #131313;
+  }
+  .sponsor-container{
+    border: 1px solid wheat;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 50px;
+    filter: grayscale(100%);
+  }
 
 
 
