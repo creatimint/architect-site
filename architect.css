@@ -221,7 +221,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 50px;
     filter: grayscale(100%);
   }
@@ -238,19 +238,20 @@ nav{
 
     /* _________mobile responsive media query________________________ */
 @media screen and (max-width: 576px){
-  nav, .banner{
+  nav{
     padding: 1rem;
   }
-  .banner-image, .fact-container{
-    width: calc(100% - 1rem);
+  .banner{
+    padding: 0px 1rem;
   }
+
   nav, .img-container, .second-section, .fact-container{
     flex-direction: column;
     gap: 20px;
   }
   /* ______________________________ */
   section{
-    padding: 20px;
+    padding: 0 1rem;
   }
   .img-container, .fact-container{
     grid-template-columns: repeat(2, 1fr);
@@ -277,9 +278,7 @@ nav{
   nav, .banner{
     padding: 1rem;
   }
-  .banner-image{
-    width: calc(100% - 1rem);
-  }
+  
   nav, .img-container, .second-section{
     flex-direction: column;
     gap: 20px;
