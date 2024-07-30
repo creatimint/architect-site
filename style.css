@@ -345,6 +345,7 @@ nav{
     margin-top: -100px;
     margin-left: 0px;
   }
+  
   /* ______________________________ */
   section{
     padding: 0 1rem;
@@ -353,7 +354,7 @@ nav{
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
   }
-  .fact-item{
+  .fact-item, .feature-text-container{
     width: 100%;
   }
   .content{
@@ -388,7 +389,7 @@ nav{
   .third-section{
     flex-direction: column;
   }
-  .card-container{
+  .card-container, .feature-text-container{
     width: 100%;
   }
   .btn2{
