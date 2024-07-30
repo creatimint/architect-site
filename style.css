@@ -389,7 +389,10 @@ nav{
   .third-section{
     flex-direction: column;
   }
-  .card-container, .feature-text-container{
+  .card-container{
+    width: 100%;
+  }
+  .feature-text-container{
     width: 100%;
   }
   .btn2{
